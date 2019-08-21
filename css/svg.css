@@ -1,0 +1,46 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+    display: table;
+}
+
+path{
+    stroke: #fff;
+    fill: #fff;
+    stroke-dasharray: 1800;
+    opacity: 10;
+    animation: animate 3s cubic-bezier(0, 0.23, 1, .1)
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        fill: none;
+        stroke-dashoffset: 0 
+    }
+    30%{
+        opacity: 10;
+        fill: none;
+        stroke-dashoffset: 400; 
+    }
+    90%{
+        opacity: 10;
+        fill: rgba(255, 255, 255,0);
+        stroke-dashoffset: 700; 
+    }
+    100%{
+        opacity: 10;
+        fill: rgba(255, 255, 255,1);
+        stroke-dashoffset: 900; 
+    }
+}
