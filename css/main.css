@@ -207,7 +207,7 @@ html { box-sizing:border-box }
 }
 
 .scrollanimation{
-  top: 168%;
+  top: 156%;
   left: 2%;
   position: fixed;
 }
@@ -220,7 +220,7 @@ html { box-sizing:border-box }
   font-family: fjalla one, sans-serif !important;
   color: #424242 !important;
   font-size: 30px;
-  top: 140%;
+  top: 130%;
   left: 5%;
   position: fixed;
 }
@@ -358,9 +358,9 @@ html { box-sizing:border-box }
 
 
 .wow p{
-  /* font-family: gothamlight; */
+  font-family: gothamlight;
   color: rgba(0, 0, 0,0.9);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 #hi{
@@ -5953,4 +5953,18 @@ only screen and (max-device-width:1199px) {
     .intro h4 {
         padding-right: 0
     }
+}
+
+
+#home-explore-btn {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 2rem; 
+}
+
+#home-explore-btn .ono-animatedbtn__circle {
+  box-shadow: 0 0 2rem #e50914;
+  background: #e50914; 
 }
